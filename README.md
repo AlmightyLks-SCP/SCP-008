@@ -1,6 +1,6 @@
 # SCP-008
 
-A simple SCP SL [Synapse](https://github.com/SynapseSL/Synapse/) Plugin to bring SCP-008 into the game.
+A simple SCP SL [Synapse](https://github.com/SynapseSL/Synapse/) Plugin to bring SCP-008 into the game.  
 In addition to SCP-008, this plugin shall also offer some SCP-049 utilities.
 
 ---
