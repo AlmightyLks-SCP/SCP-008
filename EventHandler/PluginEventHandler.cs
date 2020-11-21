@@ -19,17 +19,10 @@ namespace SCP_008
             SynEvents.Get.Round.RoundRestartEvent += Round_RoundRestartEvent;
             SynEvents.Get.Player.PlayerLeaveEvent += Player_PlayerLeaveEvent;
             SynEvents.Get.Player.PlayerItemUseEvent += Player_PlayerItemUseEvent;
-            SynEvents.Get.Player.PlayerSetClassEvent += Player_PlayerSetClassEvent;
 
             infectedPlayers = InfectedPlayers;
             runningCoroutines = new List<CoroutineHandle>();
             runningCoroutines.Add(Timing.RunCoroutine(DamageOverTime()));
-        }
-
-        private void Player_PlayerSetClassEvent(PlayerSetClassEventArgs ev)
-        {
-            //if (ev.Role == RoleType.Scp049)
-            //    ev.Player.gameObject.AddComponent<PlayerScripts.SCP049Healing>();
         }
 
         private void Player_PlayerItemUseEvent(PlayerItemInteractEventArgs ev)

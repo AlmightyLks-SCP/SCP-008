@@ -10,9 +10,9 @@ namespace SCP_008
         Description = "Brings SCP 008 in the game & adds some 049 utilities",
         Name = "SCP-008",
         SynapseMajor = 2,
-        SynapseMinor = 0,
+        SynapseMinor = 1,
         SynapsePatch = 0,
-        Version = "1.0.0"
+        Version = "1.1.0"
         )]
     public class SCP_008 : AbstractPlugin
     {
