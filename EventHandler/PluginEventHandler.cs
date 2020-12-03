@@ -51,6 +51,10 @@ namespace SCP_008
             => infectedPlayers.Remove(ev.Victim);
         private void Player_PlayerDamageEvent(PlayerDamageEventArgs ev)
         {
+            //If either the killer or the victim is null (Potential damage inflicted by Server)
+            if (ev.Killer is null || ev.Victim is null)
+                return;
+
             //If the victim inflicted dmg to themselves / SCP-008 damage tick
             if (ev.Killer == ev.Victim || ev.HitInfo.GetDamageType().name == "FALLDOWN")
                 return;
