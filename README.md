@@ -1,3 +1,8 @@
+# OUTDATED
+This Plugin was intended for Synapse 2, and is not made, nor compatible with Synapse3.
+
+---
+
 # SCP-008
 
 A simple SCP SL [Synapse](https://github.com/SynapseSL/Synapse/) Plugin to bring SCP-008 into the game.  
